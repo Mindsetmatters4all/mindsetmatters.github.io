@@ -1,59 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Mindset Matters</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>Mindset Matters | Motivation & Growth</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mindset Matters – Motivation, mindset & life transformation videos." />
+
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background: #0f172a;
-      color: white;
-      text-align: center;
-    }
-    header {
-      padding: 40px 20px;
+      font-family: 'Segoe UI', Arial, sans-serif;
       background: #020617;
+      color: #e5e7eb;
     }
-    h1 { color: #38bdf8; }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #020617, #0f172a);
+    }
+
+    header h1 {
+      font-size: 44px;
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #cbd5f5;
+      max-width: 650px;
+      margin: auto;
+    }
+
     .btn {
       display: inline-block;
-      margin-top: 20px;
-      padding: 12px 24px;
+      margin-top: 30px;
+      padding: 14px 34px;
       background: #ef4444;
       color: white;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 30px;
+      font-weight: bold;
     }
-    section { padding: 40px 20px; }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #38bdf8;
+      margin-bottom: 40px;
+      font-size: 32px;
+    }
+
+    .about {
+      text-align: center;
+      max-width: 850px;
+      margin: auto;
+      line-height: 1.8;
+      color: #cbd5f5;
+      font-size: 17px;
+    }
+
+    .videos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .videos iframe {
+      width: 100%;
+      height: 220px;
+      border-radius: 14px;
+    }
+
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 25px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 32px; }
+      .videos iframe { height: 200px; }
+    }
   </style>
 </head>
+
 <body>
 
 <header>
   <h1>Mindset Matters</h1>
-  <p>Motivation | Life Lessons | Positive Thinking</p>
+  <p>Motivation • Mindset • Self Improvement</p>
   <a class="btn" href="https://www.youtube.com/@mindsetmatters4yourlife" target="_blank">
     Subscribe on YouTube
   </a>
 </header>
 
 <section>
-  <h2>About Channel</h2>
-  <p>
-    Yeh channel motivation, mindset aur life improvement ke liye dedicated hai.
+  <h2>About the Channel</h2>
+  <p class="about">
+    Mindset Matters is focused on motivation, mindset growth and positive thinking.
+    Our goal is to inspire you daily with powerful short videos that help you grow
+    mentally, emotionally, and spiritually.
   </p>
 </section>
 
 <section>
   <h2>Latest Videos</h2>
-  <p>Coming soon...</p>
+
+  <div class="videos">
+    <!-- Auto latest uploads playlist -->
+    <iframe src="https://www.youtube.com/embed?listType=playlist&list=UUjpI8iEf110P7SvvXjRh5vQ" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed?listType=playlist&list=UUjpI8iEf110P7SvvXjRh5vQ" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed?listType=playlist&list=UUjpI8iEf110P7SvvXjRh5vQ" allowfullscreen></iframe>
+  </div>
 </section>
 
 <footer>
-  <p>© 2026 Mindset Matters</p>
+  © 2026 Mindset Matters • Built with ❤️ on GitHub Pages
 </footer>
 
 </body>
 </html>
+
